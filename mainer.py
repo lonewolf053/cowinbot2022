@@ -9,7 +9,7 @@ import json
 with open('./apikey.json', 'r+') as apifile:
     API_Key = json.loads(apifile.read())['my_key']
 
-# API_Key = '5244715406:AAFTL9sMMqVGJwls9FYjycKEZhrhLWUG248'
+
 HELP_TEXT = "Hello and welcome to the COWIN helper bot.\nYou have the following commands:\n\n/pin <space> pin code <space> date(DD-MM-YYYY) : \nGet a list of available centres using pin code and date.\n\n/district <space> district <space> state <space> date(DD-MM-YYYY): \nGet a list of available centres in a district."  # TODO: Fill in HELP data
 hello_text = HELP_TEXT + "\n\n /help:\n Shows all commands"
 
