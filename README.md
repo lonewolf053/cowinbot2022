@@ -1,4 +1,4 @@
-# tictactoe-with-python
+# Cowin telegram Bot using Python.
 ## What it does
 Telegram bot to help you find vaccination centres using pin code and district names
 ## How to use
